@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌸 Travel Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="animated-header">🌸 Travel Explorer</h1>
+    <p>Plan your trips with Doraemon’s help! 🐾</p>
+  </header>
+
+  <section class="search-section">
+    <img src="https://i.imgur.com/7z1A6jT.png" alt="Doraemon" class="doraemon">
+    <input type="text" id="destination-input" placeholder="Enter a city or country">
+    <button id="search-button">Search</button>
+    <div class="speech-bubble" id="speech-bubble">Hello! Type a place to explore! 🐾</div>
+  </section>
+
+  <div id="spinner" class="spinner hidden"></div>
+
+  <section id="results" class="grid"></section>
+
+  <section id="weather-info" class="weather hidden"></section>
+
+  <audio id="hover-sound" src="https://www.soundjay.com/button/sounds/button-16.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
